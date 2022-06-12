@@ -1,0 +1,36 @@
+.product-detail {
+    padding: 32px;
+
+    .content-thumbnail {
+        max-width: 680px;
+    }
+    h3 {
+        font-size: 28px;
+        margin: 32px 0;
+    }
+    p {
+        font-size: 16px;
+    }
+    .content-specs {
+        margin-left: 32px;
+        margin-top: 32px;
+
+        .status {
+            font-size: 14px;
+            margin-bottom: 16px;
+        }
+
+        h1 {
+            font-size: 24px;
+        }
+
+        .price {
+            font-size: 46px;
+            margin: 32px 0;
+        }
+        .btn-blue {
+            color: #fff;
+            background-color: var(--color-blue);
+        }
+    }
+}
