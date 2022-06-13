@@ -23,8 +23,12 @@
         font-size: 18px;
     }
     small {
-        color: var(--color-gray);
+        color: var(--color-gray-dark);
         font-size: 12px;
+    }
+    .icon-shipping {
+        margin-left: 16px;
+        margin-top: -5px;
     }
 }
 .product:last-child {

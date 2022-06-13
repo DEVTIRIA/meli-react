@@ -4,14 +4,12 @@
 
     .breadcrumb-item + .breadcrumb-item::before {
         content: '>';
+        font-weight: initial;
     }
     .breadcrumb-item {
-        a {
-            color: var(--color-gray-dark) !important;
-            text-decoration: none;
-        }
+        color: var(--color-gray) !important;
     }
-    .breadcrumb-item:last-child a {
+    .breadcrumb-item:last-child {
         font-weight: bold;
     }
 }

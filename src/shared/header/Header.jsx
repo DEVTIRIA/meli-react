@@ -7,7 +7,7 @@ import Breadcrumb from '../breadcrumb/Breadcrumb';
 
 import './Header.scss';
 
-const Header = () => {
+const Header = ({ showBreadcrumb, filters }) => {
     return (
         <Fragment>
             <header className='pt-2 pb-2'>
@@ -28,9 +28,7 @@ const Header = () => {
                     </div>
                 </div>
             </header>
-            <section>
-                <Breadcrumb />
-            </section>
+            <section>{showBreadcrumb ? <Breadcrumb filters={filters} /> : ''}</section>
         </Fragment>
     );
 };
